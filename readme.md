@@ -2,7 +2,7 @@
 
 ## Overview
 
-The **JSON RAG AST Generator** is a Python-based tool for working with Abstract Syntax Trees (ASTs). It provides functionality to extract AST definitions from Python files and rebuild Python source code from these definitions. This project is useful for analyzing, transforming, and reconstructing Python code programmatically.
+The **JSON RAG AST Generator** is a Python-based tool for working with Abstract Syntax Trees (ASTs). It provides functionality to extract AST definitions from Python files and rebuild Python source code from these definitions. This project was designed for my RAG Python code experiments it's also useful for analyzing, transforming, and reconstructing Python code programmatically.
 
 ---
 
@@ -175,4 +175,3 @@ JSON-RAG-AST-Generator/
 ## License
 
 This project is licensed under the MIT License.
-```
