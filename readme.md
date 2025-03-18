@@ -1,4 +1,3 @@
-```
 # JSON RAG AST Generator
 
 ## Overview
@@ -155,16 +154,19 @@ print(namespace)
 ## Project Structure
 
 ```
-json_rag_ast/
-├── __init__.py
-├── json_rag_ast.py
-├── mong_usage_doc.txt
-├── requirements.txt
+JSON-RAG-AST-Generator/
+├── json_rag_ast/
+│   ├── __init__.py
+│   ├── json_rag_ast.py
+│   └── ...
 ├── tests/
 │   ├── __init__.py
-│   ├── test_json_rag_ast.py
-│   ├── interactions.py
-│   └── guild.py
+│   └── test_json_rag_ast.py
+├── mong_usage_doc.txt
+├── README.md
+├── LICENSE
+├── setup.py
+├── pyproject.toml
 └── .gitignore
 ```
 
