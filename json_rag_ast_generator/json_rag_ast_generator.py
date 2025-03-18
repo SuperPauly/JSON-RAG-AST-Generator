@@ -2,7 +2,7 @@
 #!/usr/bin/env python
 
 """
-Documentation for mong.py
+Documentation for json_rag_ast_generator.py
 
 This module provides two main classes:
 
@@ -38,7 +38,7 @@ Class Methods:
     
     Example:
     --------
-    from mong import ExtractASTDefinitions
+    from json_rag_ast_generator import ExtractASTDefinitions
     ast_dict = ExtractASTDefinitions.get_ast_as_dict('example.py')
     print(ast_dict)
 
@@ -47,7 +47,7 @@ Class Methods:
     
     Example:
     --------
-    from mong import ExtractASTDefinitions
+    from json_rag_ast_generator import ExtractASTDefinitions
     json_str = ExtractASTDefinitions.get_ast_as_json('example.py')
     print(json_str)
 
@@ -56,7 +56,7 @@ Class Methods:
     
     Example:
     --------
-    from mong import ExtractASTDefinitions
+    from json_rag_ast_generator import ExtractASTDefinitions
     ExtractASTDefinitions.save_ast_as_json('example.py', 'example_ast.json')
     print("AST saved to example_ast.json")
 
@@ -72,7 +72,7 @@ Main Methods:
     
     Example:
     --------
-    from mong import DefinitionRebuilder
+    from json_rag_ast_generator import DefinitionRebuilder
     source_code = DefinitionRebuilder.rebuild_from_json(json_str)
     print(source_code)
 
@@ -82,7 +82,7 @@ Main Methods:
     
     Example:
     --------
-    from mong import DefinitionRebuilder
+    from json_rag_ast_generator import DefinitionRebuilder
     namespace = DefinitionRebuilder.execute_rebuilt(json_str)
     print(namespace)
 
@@ -91,7 +91,7 @@ Main Methods:
     
     Example:
     --------
-    from mong import DefinitionRebuilder
+    from json_rag_ast_generator import DefinitionRebuilder
     ast_data = DefinitionRebuilder.load_ast_from_json('example_ast.json')
     print(ast_data)
 
@@ -102,7 +102,7 @@ Main Methods:
 
     Example:
     --------
-    from mong import DefinitionRebuilder
+    from json_rag_ast_generator import DefinitionRebuilder
     # Using previously loaded AST definitions (as a dict)
     rebuilt_code = DefinitionRebuilder.rebuild_from_dict_or_json(ast_data, 'example_rebuilt.py')
     print("Rebuilt source code saved to example_rebuilt.py")
