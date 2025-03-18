@@ -9,6 +9,8 @@ The **JSON RAG AST Generator** is a Python-based tool for working with Abstract 
 ## Features
 
 - Extract AST definitions from Python files.
+- View & manipulate AST as a Dict
+- Reconstruct the manipulated Dict into .py file.
 - Save AST definitions as JSON.
 - Rebuild Python source code from AST definitions or JSON representations.
 - Execute reconstructed Python code dynamically.
