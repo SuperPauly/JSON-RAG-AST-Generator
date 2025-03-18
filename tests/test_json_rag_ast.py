@@ -1,7 +1,7 @@
 import ast
 import json
 import pytest
-from ..json_rag_ast_generator import ExtractASTDefinitions, DefinitionRebuilder
+from ..json_rag_ast_generator/json_rag_ast_generator import ExtractASTDefinitions, DefinitionRebuilder
 
 # Helper function to create a temporary test file.
 def create_temp_file(tmp_path, content, filename="test.py"):
