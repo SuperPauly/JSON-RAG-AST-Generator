@@ -19,7 +19,7 @@ The **JSON RAG AST Generator** is a Python-based tool for working with Abstract 
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/json-rag-ast-generator.git
+   git clone https://github.com/superpauly/json-rag-ast-generator.git
    cd json-rag-ast-generator
    ```
 
